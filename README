@@ -1,1 +1,2 @@
 source: https://github.com/postgres/pgadmin3/tree/master/i18n
+pgadmin3.pot - history: http://git.postgresql.org/gitweb/?p=pgadmin3.git;a=history;f=pgadmin3.pot;h=faa570c272e5dfa4a8d2a0c561169290440b3613;hb=HEAD
