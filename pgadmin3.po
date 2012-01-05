@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: pgAdmin III\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-06-13 14:57+0200\n"
-"PO-Revision-Date: 2012-01-05 16:53+0800\n"
+"PO-Revision-Date: 2012-01-05 17:09+0800\n"
 "Last-Translator: 郭朝益(Kuo, ChaoYi) <Kuo.ChaoYi@gmail.com>\n"
 "Language-Team: The pgAdmin Development Team <pgadmin-hackers@postgresql.org>\n"
 "MIME-Version: 1.0\n"
@@ -333,12 +333,6 @@ msgstr "%.2f 秒"
 # standard
 # standard
 #: pgadmin/frm/frmQuery.cpp:1655
-#, fuzzy, c-format
-msgid "%d char"
-msgid_plural "%d chars"
-msgstr[0] "char"
-msgstr[1] "char"
-
 #: pgadmin/ctl/ctlSQLBox.cpp:195
 #: pgadmin/ctl/ctlSQLBox.cpp:202
 #: pgadmin/ctl/ctlSQLBox.cpp:238
@@ -498,9 +492,9 @@ msgid "%s (%d asynchronous notifications received)."
 msgstr "%s (%d 非同步通知已承認)。"
 
 #: pgadmin/frm/frmReport.cpp:1260
-#, fuzzy, c-format
+#, c-format
 msgid "%s DDL"
-msgstr " 資料定義語言(DDL)"
+msgstr " %s 資料定義語言(DDL)"
 
 #: src/frm/frmReport.cpp:1253
 #: pgadmin/frm/frmReport.cpp:1237
@@ -9028,7 +9022,7 @@ msgstr "當前的版本"
 
 #: pgadmin/frm/frmBackup.cpp:242
 msgid "Custom"
-msgstr ""
+msgstr "自訂"
 
 #: pgadmin/ui/dlgTable.xrc:22
 #: pgadmin/ui/dlgTable.xrc:35
@@ -15153,7 +15147,7 @@ msgstr "INSERT 描述稿本"
 
 #: pgadmin/ui/dlgTrigger.xrc:16
 msgid "INSTEAD OF"
-msgstr ""
+msgstr "INSTEAD OF"
 
 # standard
 # standard
@@ -16012,19 +16006,19 @@ msgstr "LAST"
 
 #: pgadmin/ui/dlgCollation.xrc:9
 msgid "LC&COLLATE"
-msgstr ""
+msgstr "LC&COLLATE"
 
 #: pgadmin/ui/dlgCollation.xrc:10
 msgid "LC&CTYPE"
-msgstr ""
+msgstr "LC&CTYPE"
 
 #: pgadmin/schema/pgCollation.cpp:137
 msgid "LC_COLLATE"
-msgstr ""
+msgstr "LC_COLLATE"
 
 #: pgadmin/schema/pgCollation.cpp:138
 msgid "LC_CTYPE"
-msgstr ""
+msgstr "LC_CTYPE"
 
 # standard
 # standard
@@ -25236,7 +25230,7 @@ msgstr "SSL 模式"
 
 #: pgadmin/schema/pgServer.cpp:1045
 msgid "SSL Root Certificate File"
-msgstr ""
+msgstr "SSL根憑證檔案"
 
 #: src/schema/pgServer.cpp:815
 #: src/schema/pgServer.cpp:835
@@ -30278,7 +30272,6 @@ msgstr "UPDATE"
 # standard
 # standard
 #: pgadmin/frm/frmQuery.cpp:3177
-#, fuzzy
 msgid "UPDATE Script"
 msgstr "UPDATE 描述稿本"
 
